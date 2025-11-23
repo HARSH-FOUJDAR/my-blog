@@ -28,10 +28,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-background text-foreground antialiased`}
       >
-        {/* Navbar Sticky */}
+     
         <Navbar />
 
-        {/* Main Content Wrapper */}
         <main className="container mx-auto px-4 py-6">
           {children}
         </main>
